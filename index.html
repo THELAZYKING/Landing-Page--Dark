@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dark Landing</title>
+  </head>
+  <body>
+    <header id="showcase">
+      <h1>Welcome To the Dark World</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+        aliquam nostrum veniam repellat iste nemo.
+      </p>
+      <a class="button" href="#section-a">&#11167;</a>
+    </header>
+    <section id="section-a">
+      <h2>Dont Know What to Write</h2>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sed
+        excepturi veritatis, quaerat officia nesciunt, maxime consequatur
+        molestiae in, animi accusantium harum dolorem qui atque a culpa magnam
+        odio dignissimos. Dolores, aspernatur, eius exercitationem ducimus
+        repudiandae a quibusdam voluptatem, qui nam est at illo alias
+        necessitatibus esse veritatis quia aut illum autem repellendus facere
+        minus quod nulla dolorem aperiam. Voluptatem excepturi soluta unde,
+        numquam magnam incidunt molestiae sit, pariatur quibusdam iusto
+        doloribus similique debitis repellendus eaque officia laborum itaque
+        optio aut sapiente sunt facilis enim consequuntur quae velit? Quia
+        expedita aliquid quis neque, nulla modi quasi placeat debitis fugiat
+        nobis odio et, facere accusantium. Dicta alias consectetur sunt
+        quibusdam, et facilis incidunt maiores natus enim minus numquam? Quidem
+        veniam repellat, delectus architecto optio magni saepe, voluptatum
+        maiores, nemo debitis modi non cumque eaque? Autem impedit, quibusdam
+        modi explicabo quo tenetur. At corrupti repellendus vitae.
+      </p>
+    </section>
+    <div class="section-bc">
+      <section id="section-b">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+          itaque rem officiis nam maiores, ab in atque consequatur alias. Cum
+          quam cupiditate aliquid cumque soluta iusto vero natus itaque
+          doloremque accusamus iure, ut dignissimos ab molestiae esse, vel nulla
+          inventore nihil praesentium aspernatur? Quisquam laboriosam eum hic
+          distinctio ad vel rem, ea sint nostrum sunt inventore a? Saepe, fuga
+          nihil reprehenderit, eos illo debitis delectus eum ipsam odio commodi
+          rem ut magnam tempore minima? Placeat itaque aliquam ipsum mollitia
+          accusantium repudiandae iusto aliquid in libero neque dolores
+          perspiciatis velit error doloribus, dicta quod quae voluptates magnam
+          saepe nihil illo numquam!
+        </p>
+      </section>
+      <section id="section-c">
+        <div class="box1">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea
+          harum ipsum numquam vero enim dolor est cumque iste quasi!
+        </div>
+        <div class="box2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea
+          harum ipsum numquam vero enim dolor est cumque iste quasi!
+        </div>
+        <div class="box3">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea
+          harum ipsum numquam vero enim dolor est cumque iste quasi!
+        </div>
+      </section>
+    </div>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function(e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth"
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
